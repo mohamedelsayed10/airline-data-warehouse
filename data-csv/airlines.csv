@@ -1,0 +1,60 @@
+Name,ICAO,HeadquartersLocation,FleetSize
+American Airlines,AAL,"Fort Worth, Texas, USA",876
+Delta Air Lines,DAL,"Atlanta, Georgia, USA",786
+United Airlines,UAL,"Chicago, Illinois, USA",811
+Southwest Airlines,SWA,"Dallas, Texas, USA",735
+Lufthansa,DLH,"Cologne, Germany",279
+Emirates,UAE,"Dubai, United Arab Emirates",274
+British Airways,BAW,"London, United Kingdom",268
+Air France,AFR,"Paris, France",216
+Singapore Airlines,SIA,Singapore,146
+Qantas,QFA,"Sydney, Australia",130
+Cathay Pacific,CPA,Hong Kong,137
+KLM Royal Dutch Airlines,KLM,"Amsterdam, Netherlands",119
+Turkish Airlines,THY,"Istanbul, Turkey",331
+ANA All Nippon Airways,ANA,"Tokyo, Japan",245
+Qatar Airways,QTR,"Doha, Qatar",232
+Etihad Airways,ETD,"Abu Dhabi, United Arab Emirates",119
+Saudi Arabian Airlines,SVA,"Jeddah, Saudi Arabia",182
+Virgin Atlantic Airways,VIR,"Crawley, United Kingdom",45
+Air Canada,ACA,"Montreal, Quebec, Canada",189
+LATAM Airlines,LAN,"Santiago, Chile",306
+Alaska Airlines,ASA,"Seattle, Washington, USA",329
+China Southern Airlines,CSN,"Guangzhou, China",606
+Air India,AIC,"New Delhi, India",127
+Japan Airlines,JAL,"Tokyo, Japan",175
+Ryanair,RYR,"Dublin, Ireland",445
+EasyJet,EZY,"London, United Kingdom",342
+IndiGo,IGO,"Gurgaon, India",283
+Allegiant Air,AAY,"Summerlin, Nevada, USA",98
+Spirit Airlines,NKS,"Miramar, Florida, USA",164
+Norwegian Air Shuttle,NAX,"Fornebu, Norway",156
+Wizz Air,WZZ,"Budapest, Hungary",139
+Volaris,VOI,"Mexico City, Mexico",82
+JetBlue Airways,JBU,"Long Island City, New York, USA",270
+Frontier Airlines,FFT,"Denver, Colorado, USA",106
+Hawaiian Airlines,HAL,"Honolulu, Hawaii, USA",64
+Azul Brazilian Airlines,AZU,"Barueri, Brazil",141
+Aeroflot,AFL,"Moscow, Russia",240
+Swiss International Air Lines,SWR,"Zurich, Switzerland",92
+Aer Lingus,EIN,"Dublin, Ireland",57
+Air New Zealand,ANZ,"Auckland, New Zealand",117
+SAS Scandinavian Airlines,SAS,"Stockholm, Sweden",161
+Iberia,IBE,"Madrid, Spain",104
+Vueling Airlines,VLG,"Barcelona, Spain",125
+AirAsia,AXM,"Kuala Lumpur, Malaysia",253
+WestJet,WJA,"Calgary, Alberta, Canada",181
+S7 Airlines,SBI,"Ob, Novosibirsk Oblast, Russia",89
+Alitalia,AZA,"Rome, Italy",97
+Air Astana,KZR,"Almaty, Kazakhstan",34
+Flydubai,FDB,"Dubai, United Arab Emirates",61
+EVA Air,EVA,"Taoyuan City, Taiwan",77
+Copa Airlines,CMP,"Panama City, Panama",102
+Norwegian Air Sweden,NSW,"Stockholm, Sweden",3
+Norwegian Air UK,NRS,"London, United Kingdom",20
+Norwegian Air International,IBK,"Dublin, Ireland",59
+Norwegian Air Norway,NAX,"Fornebu, Norway",10
+Norwegian Air Shuttle Ireland,IBK,"Dublin, Ireland",3
+Norwegian Long Haul,NLH,"Fornebu, Norway",20
+Norwegian Air Argentina,NAA,"Buenos Aires, Argentina",6
+Norwegian Air Denmark,NDK,"Copenhagen, Denmark",8

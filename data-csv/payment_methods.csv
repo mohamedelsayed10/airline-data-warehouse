@@ -1,0 +1,6 @@
+PaymentID,PaymentMethod
+1,Credit Card
+2,Debit Card
+3,Cash
+4,PayPal
+5,Bank Transfer

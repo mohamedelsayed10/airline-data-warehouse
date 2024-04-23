@@ -1,0 +1,44 @@
+-- Load data into aircraft table
+COPY aircraft FROM 'C:\Users\mohamed elsayed\Desktop\omranion\aircraft_data.csv' DELIMITER ',' CSV HEADER;
+
+-- Load data into airlines table
+COPY airlines FROM 'C:\Users\mohamed elsayed\Desktop\omranion\airlines.csv' DELIMITER ',' CSV HEADER;
+
+-- Load data into airports table
+COPY airports FROM 'C:\Users\mohamed elsayed\Desktop\omranion\airport_data.csv' DELIMITER ',' CSV HEADER;
+
+-- Load data into booking table
+COPY booking FROM 'C:\Users\mohamed elsayed\Desktop\omranion\booking.csv' DELIMITER ',' CSV HEADER;
+
+-- Load data into booking_info table
+COPY booking_info FROM 'C:\Users\mohamed elsayed\Desktop\omranion\booking_info.csv' DELIMITER ',' CSV HEADER;
+
+-- Load data into crews table
+COPY crews FROM 'C:\Users\mohamed elsayed\Desktop\omranion\crews.csv' DELIMITER ',' CSV HEADER;
+
+-- Load data into customers table
+COPY customers FROM 'C:\Users\mohamed elsayed\Desktop\omranion\customers.csv' DELIMITER ',' CSV HEADER;
+
+-- Load data into employees table
+COPY employees FROM 'C:\Users\mohamed elsayed\Desktop\omranion\employees.csv' DELIMITER ',' CSV HEADER;
+
+-- Load data into flight_details table
+COPY flight_details FROM 'C:\Users\mohamed elsayed\Desktop\omranion\flight_details.csv' DELIMITER ',' CSV HEADER;
+
+-- Load data into flight_service table
+COPY flight_service FROM 'C:\Users\mohamed elsayed\Desktop\omranion\flight_service.csv' DELIMITER ',' CSV HEADER;
+
+-- Load data into payment_methods table
+COPY payment_methods FROM 'C:\Users\mohamed elsayed\Desktop\omranion\payment_methods.csv' DELIMITER ',' CSV HEADER;
+
+-- Load data into seats table
+COPY seats FROM 'C:\Users\mohamed elsayed\Desktop\omranion\seats.csv' DELIMITER ',' CSV HEADER;
+
+-- Load data into service_offering table
+COPY service_offering FROM 'C:\Users\mohamed elsayed\Desktop\omranion\service_offering.csv' DELIMITER ',' CSV HEADER;
+
+-- Load data into transactions table
+COPY transactions FROM 'C:\Users\mohamed elsayed\Desktop\omranion\transactions.csv' DELIMITER ',' CSV HEADER;
+
+-- Load data into travel_class table
+COPY travel_class FROM 'C:\Users\mohamed elsayed\Desktop\omranion\travel_class.csv' DELIMITER ',' CSV HEADER;

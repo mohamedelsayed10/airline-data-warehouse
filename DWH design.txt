@@ -1,0 +1,98 @@
+
+Sure, here's a basic design for a Data Warehouse schema with two fact tables (bookings and flights) and their associated dimensions:
+
+Dimensions Connected to Bookings Fact:
+
+Airport Dimension:
+AirportID (Primary Key)
+Name
+IATA
+Location
+Country
+TimeZone
+Airline Dimension:
+AirlineID (Primary Key)
+Name
+ICAO
+HeadquartersLocation
+FleetSize
+Customers Dimension:
+CustomerID (Primary Key)
+Name
+Gender
+DateOfBirth
+Nationality
+PassportNumber
+Email
+PhoneNumber
+Type
+Date Dimension:
+DateID (Primary Key)
+Date
+Day
+Month
+Year
+Quarter
+Weekday
+Holiday (Boolean)
+Payment Method Dimension:
+PaymentMethodID (Primary Key)
+PaymentMethod
+Travel Class Dimension:
+ClassID (Primary Key)
+ClassName
+Description
+Dimensions Connected to Flight Fact:
+
+Aircraft Dimension:
+AircraftID (Primary Key)
+Year
+Type
+Manufacturer
+Model
+Engines
+Seats
+Engine
+Airport Dimension:
+AirportID (Primary Key)
+Name
+IATA
+Location
+Country
+TimeZone
+Airline Dimension:
+AirlineID (Primary Key)
+Name
+ICAO
+HeadquartersLocation
+FleetSize
+Date Dimension: (Same as in bookings fact)
+Service Dimension:
+ServiceID (Primary Key)
+ServiceName
+Crew Dimension:
+CrewID (Primary Key)
+PilotID
+HostessID
+Hostess2ID
+AssistantID
+Facts:
+
+Bookings Fact:
+BookingID (Primary Key)
+AirportID (Foreign Key)
+AirlineID (Foreign Key)
+CustomerID (Foreign Key)
+DateID (Foreign Key)
+PaymentMethodID (Foreign Key)
+ClassID (Foreign Key)
+Amount
+Flights Fact:
+FlightID (Primary Key)
+AircraftID (Foreign Key)
+DepartureAirportID (Foreign Key)
+ArrivalAirportID (Foreign Key)
+AirlineID (Foreign Key)
+DateID (Foreign Key)
+ServiceID (Foreign Key)
+CrewID (Foreign Key)
